@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite parallel="false" name="Suite">
+<suite parallel="methods" name="Suite">
   <test name="Test">
-    <classes>
-      <class name="testNGProj.Test3"/>
-      <class name="testNGProj.NewTest2"/>
-      <parameter name="username" value="practice"/>
-      <parameter name="password" value="SuperSecretPassword!"/>
-      <class name="testNGProj.OpenBrowser"/>
-      <class name="testNGProj.CrossBrowserTesting"/>
-      <parameter name="browser" value="edge"/>
+     <classes>
+      <class name="testNGProj.DemoParallel"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
